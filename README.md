@@ -1,21 +1,22 @@
 # Work-Day-Scheduler
 
 ## What, Why, and HOW
-With this assignment, I was motivated to use my new skills with React in order to recreate my portfolio with React. It was a really useful assignment. It helped me hone the react skill I've gained over the past couple weeks, and it was cool to see how the same portfolio could be rendered with React as opposed to HTML. I'm sure it also looks more impressive to potential employers as well.  
+With this assignment, I was motivated to test out my jQuery skills by created a responsive, dynamic Work-Day-Scheduler. For the most part, this assignment wasn't too difficult and was a great way to cement my jQuery skills. I was also happy to practice my local storage skills. One thing that did prove to be really tricky was to change the color of the row based off whether or not that time of day had passed. If we were using military time, I could use a simple "if(row time < current time){make the background grey}". However, because our time resets at 12, I couldn't do that. I ended up having to hard code in the color changes, but I'm sure there's a way to make the code more dry, and maybe in the future I'll come back and give it another crack. 
+In order to complete this assignment, I:
 To achieve the end result, I:
-1. Created a new react app 
-2. Pseudo coded so that I knew how to set up my files/folders
-3. Created all the correct components and pages and linked them up
-4. Put it all together in the PorfolioContainer file, which was exoported to the App.js file, which is then displayed by virtue of the index.js file
+1. Created all the styling and elements that you see on the page
+2. Made sure to give all the aforementioned elements proper class names and IDs
+3. Manipulated the background color based on the time
+4. Saved the inputs to local storage, and set the value of the inputs to be equal to whatever was saved in local storage
 
-The assignment was really valuable. While it's definitely possible to create an awesome portfolio with just HTML and CSS, using React not only strengthened my React skills, but also opened up a lot of opportunities for functionality when it comes to adding components to my portfolio going forward. 
+Overall, this assignment was really fun. JQuery certainly makes things a lot easier, so I'm always happy whenever I have the opportunity to cement those skills.  
 
 # Links
-Link to GitHub repo: https://github.com/andrew1835/React-Portfolio
+Link to GitHub repo: https://github.com/andrew1835/Work-Day-Scheduler
 <br>
-Link to deployed application: https://andrewreactportfolio.herokuapp.com/
+Link to deployed application: https://andrew1835.github.io/Work-Day-Scheduler/
 
 # Screenshot
-This screenshot shows what the home page of the portfolio looks like
+This screenshot shows what the home page looks like when it's 7PM (not exciting since the background color of all the rows is grey, but I coded in some different values for the rows, and the background color changed accordingly).
 
-<img src = "./src/components/Images/ReactApp.jpg" alt = "Home page">
+<img src = "./Assets/Work-Day-Scheduler.jpg" alt = "Home page">
