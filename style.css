@@ -69,3 +69,48 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+.row{
+  border-width: 2px;
+  border-top: 2px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  display: flex;
+}
+
+
+.middle{
+
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.top{
+  height: 100%;
+}
+
+.bottom{
+  height: 100%;
+  background-color: rgb(5, 182, 226);
+  border-style: solid;
+  border-left: 4px;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+.save{
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(185, 182, 182);
+  border: none;
+  padding-left: 2vw;
+}
